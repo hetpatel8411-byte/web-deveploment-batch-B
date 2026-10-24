@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudentHub - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="register.html">Register</a>
+    </nav>
+
+    <center>
+        <h1>Student Login</h1>
+
+        <form action="login.php" method="POST">
+            <p>
+                <label>Email:</label><br>
+                <input type="email" name="email" required>
+            </p>
+
+            <p>
+                <label>Password:</label><br>
+                <input type="password" name="password" required>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="remember" value="yes">
+                    Remember me
+                </label>
+            </p>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p>New here? <a href="register.html">Register here</a></p>
+        <a href="index.html">Back to Home</a>
+    </center>
+</body>
+</html>
