@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: blue;
+}
