@@ -1,0 +1,18 @@
+body { margin: 24px; font: 16px Arial, sans-serif; background: #eef3f7; color: #16324f; }
+main { max-width: 420px; margin: auto; }
+form { display: grid; gap: 12px; padding: 20px; background: white; }
+label { display: grid; gap: 5px; }
+input, select, textarea, button { box-sizing: border-box; width: 100%; padding: 9px; }
+textarea { resize: vertical; font: inherit; }
+input[type="radio"], input[type="checkbox"] { width: auto; }
+fieldset { display: flex; gap: 14px; border: 1px solid #aaa; }
+fieldset label, .terms { display: flex; align-items: center; gap: 6px; }
+button { border: 0; background: #0f6b78; color: white; cursor: pointer; }
+button:disabled { opacity: .6; cursor: not-allowed; }
+a { color: #005a8d; }
+.result, .records { max-width: 900px; }
+.result nav, .records nav { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 20px; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 9px; border: 1px solid #bcc8d2; text-align: left; }
+th { background: #dce8ef; }

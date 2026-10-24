@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 13 - AJAX Events</title>
+    <link rel="stylesheet" href="ajax-events.css">
+</head>
+<body>
+
+    <h1>Event Management</h1>
+
+    <p id="message"></p>
+
+    <h2>Add or Edit Event</h2>
+
+    <form id="eventForm">
+        <input type="hidden" id="id">
+
+        <label>Title</label>
+        <input type="text" id="title" required>
+
+        <label>Description</label>
+        <textarea id="description" required></textarea>
+
+        <label>Event Date</label>
+        <input type="date" id="event_date" required>
+
+        <label>Location</label>
+        <input type="text" id="location" required>
+
+        <label>Category</label>
+        <input type="text" id="category" required>
+
+        <label>Status</label>
+        <select id="status">
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+        </select>
+
+        <button type="submit">Save Event</button>
+        <button type="button" id="cancelButton">Cancel Edit</button>
+    </form>
+
+    <h2>All Events</h2>
+    <p id="loading">Loading events...</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="eventList"></tbody>
+    </table>
+
+    <script src="ajax-events.js"></script>
+</body>
+</html>
