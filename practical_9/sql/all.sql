@@ -1,0 +1,17 @@
+
+CREATE DATABASE IF NOT EXISTS practical9_db;
+
+USE practical9_db;
+
+CREATE TABLE IF NOT EXISTS students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(254) NOT NULL UNIQUE,
+    mobile CHAR(10) NOT NULL,
+    address VARCHAR(1000) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    course VARCHAR(10) NOT NULL,
+    year TINYINT NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

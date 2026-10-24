@@ -1,0 +1,37 @@
+[
+  {"title":"Welcome Week",
+  "date":"2026-10-05",
+  "category":"Campus",
+  "location":"Main Hall",
+  "description":"Meet students and explore campus activities."},
+  {"title":"Web Design Workshop",
+  "date":"2026-10-12"
+  ,"category":"Workshop"
+  ,"location":"Computer Lab"
+  ,"description":"Build a simple responsive web page."},
+  {"title":"Career Planning Talk"
+  ,"date":"2026-10-18"
+  ,"category":"Talk"
+  ,"location":"Auditorium"
+  ,"description":"Learn about internships and career preparation."},
+  {"title":"Science Exhibition"
+  ,"date":"2026-10-24"
+  ,"category":"Campus"
+  ,"location":"Science Block",
+  "description":"Explore student science projects and demonstrations."},
+  {"title":"Programming Contest",
+  "date":"2026-11-02",
+  "category":"Competition",
+  "location":"Computer Lab",
+  "description":"Solve programming challenges with your team."},
+  {"title":"Alumni Meetup",
+  "date":"2026-11-10",
+  "category":"Talk",
+  "location":"Main Hall",
+  "description":"Connect with graduates and hear their stories."},
+  {"title":"Photography Walk",
+  "date":"2026-11-17",
+  "category":"Campus",
+  "location":"East Garden",
+  "description":"Practice photography around the college grounds."}
+]
