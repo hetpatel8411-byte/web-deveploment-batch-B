@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Registration - StudentHub</title>
+  <link rel="stylesheet" href="event-registration.css">
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+  </nav>
+  <main>
+    <p class="eyebrow">STUDENTHUB EVENTS</p>
+    <h1>Event registration</h1>
+    <p class="intro">Choose a student and an upcoming event to register.</p>
+
+    <form id="event-registration-form" action="event-registration.php" method="post">
+      <input id="csrf-token" name="csrf_token" type="hidden" value="">
+      <p id="form-status" class="status" role="status" aria-live="polite">Loading students and events...</p>
+
+      <label for="student">Select student</label>
+      <select id="student" name="student_id" required disabled>
+        <option value="">Loading students...</option>
+      </select>
+
+      <label for="event">Select event</label>
+      <select id="event" name="event_id" required disabled>
+        <option value="">Loading events...</option>
+      </select>
+
+      <button id="submit-registration" type="submit" disabled>Register</button>
+    </form>
+    <p class="back-link"><a href="events.html">Browse all events</a></p>
+  </main>
+  <script src="event-registration.js"></script>
+</body>
+</html>

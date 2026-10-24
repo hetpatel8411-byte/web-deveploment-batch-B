@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudentHub - Events</title>
+  <link rel="stylesheet" href="events.css">
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a href="index.php">Home</a> |
+    <a href="studenthub.php">Registration summary</a> |
+    <a href="register.html">Student account</a> |
+    <a href="event-registration.html">Register for an event</a>
+  </nav>
+  <main>
+    <h1>Student Events</h1>
+    <p><a href="index.html">Back to Home</a></p>
+    <section class="controls" aria-label="Event controls">
+      <input id="search" type="search" placeholder="Search events" aria-label="Search events">
+      <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
+      <select id="sort" aria-label="Sort events">
+        <option value="date">Soonest first</option>
+        <option value="date-desc">Latest first</option>
+        <option value="title">Title A-Z</option>
+      </select>
+    </section>
+    <p id="status" role="status">Loading events...</p>
+    <section id="events" class="events" aria-label="Events"></section>
+    <nav class="pagination" aria-label="Event pages">
+      <button id="previous" type="button" disabled>Previous</button>
+      <span id="page"></span>
+      <button id="next" type="button" disabled>Next</button>
+    </nav>
+  </main>
+  <script src="events.js"></script>
+</body>
+</html>
