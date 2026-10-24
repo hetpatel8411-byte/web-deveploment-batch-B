@@ -1,0 +1,13 @@
+body { margin: 30px; background: #eef3f7; color: #16324f; font: 16px Arial, sans-serif; }
+main { max-width: 850px; margin: auto; }
+a { color: #005a8d; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+input, select, button { padding: 9px; font: inherit; }
+input { flex: 1 1 220px; }
+.events { display: grid; gap: 12px; }
+.event { padding: 14px; background: white; border-left: 4px solid #0f6b78; }
+.event h2 { margin: 0 0 8px; font-size: 20px; }
+.event p { margin: 5px 0; }
+.pagination { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 20px 0; }
+button { border: 0; background: #0f6b78; color: white; cursor: pointer; }
+button:disabled { background: #9aabb1; cursor: default; }
